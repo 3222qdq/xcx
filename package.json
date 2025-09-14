@@ -1,0 +1,17 @@
+{
+  "name": "role-editor-bot",
+  "version": "1.2.1",
+  "description": "Discord.js v14 bot: Role editor (instant toggle) + WL (SYS+/SYS/OWNER/WL) + logs + role blacklist. Auto-installs deps on first start.",
+  "main": "boot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node boot.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0"
+  }
+}
